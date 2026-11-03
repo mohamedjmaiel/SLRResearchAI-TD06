@@ -1,0 +1,52 @@
+{
+ "description": "Passages de référence annotés (paper_id + page) par deux relecteurs pour les RQ du sujet de référence. Sert à calculer Precision@k et Recall@k.",
+ "topic": "Utilisation des LLM pour assister le screening des SLR en génie logiciel",
+ "questions": [
+  {
+   "id": "RQ1",
+   "question": "Comment les LLM améliorent-ils le rappel du screening des SLR ?",
+   "relevant_pages": [
+    {
+     "paper_id": "https://openalex.org/W1001",
+     "page": 3
+    },
+    {
+     "paper_id": "s2-7f3a",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "id": "RQ2",
+   "question": "Quel contrôle humain doit-il être conservé lors du screening assisté ?",
+   "relevant_pages": [
+    {
+     "paper_id": "https://openalex.org/W1001",
+     "page": 4
+    },
+    {
+     "paper_id": "s2-7f3a",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "id": "RQ3",
+   "question": "Quelles métriques évaluent-elles la qualité du screening automatisé ?",
+   "relevant_pages": [
+    {
+     "paper_id": "https://openalex.org/W1001",
+     "page": 2
+    },
+    {
+     "paper_id": "https://openalex.org/W1001",
+     "page": 3
+    },
+    {
+     "paper_id": "s2-7f3a",
+     "page": 3
+    }
+   ]
+  }
+ ]
+}

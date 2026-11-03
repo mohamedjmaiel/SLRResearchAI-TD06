@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "origin": "RAG_TD06",
+  "topic": "Utilisation des LLM pour assister le screening des SLR en génie logiciel",
+  "source_artifacts": [
+    "search_results.json",
+    "screening_decisions.json",
+    "document_manifest.json"
+  ],
+  "evidence": [
+    {
+      "question": "Qui prend la décision finale d'inclusion d'une étude ?",
+      "focus_question": "Qui prend la décision finale d'inclusion d'une étude ?",
+      "config": "agentique+memoire",
+      "strategy": "semantique/question/k=3",
+      "retrieved_chunk_ids": [
+        "W1001_p4_c2",
+        "W1001_p4_c1"
+      ],
+      "answer": "L'équipe de revue prend la décision finale d'inclusion.",
+      "supporting_quote": "In our protocol the final inclusion decision always belongs to the review team, and the model acts as an additional screener whose suggestions are audited.",
+      "paper_id": "https://openalex.org/W1001",
+      "chunk_id": "W1001_p4_c2",
+      "page": 4,
+      "status": "verified",
+      "verification_reason": "Citation exacte, chunk et page cohérents.",
+      "authorized_for_writing": true,
+      "created_at": "2026-11-03T11:30:19+00:00"
+    },
+    {
+      "question": "Quelle charge de lecture le screening par LLM économise-t-il et combien coûte le vote majoritaire ?",
+      "focus_question": "Quelle charge de lecture le screening par LLM économise-t-il ?",
+      "config": "agentique+memoire",
+      "strategy": null,
+      "retrieved_chunk_ids": [
+        "W1001_p3_c2",
+        "W1001_p1_c1"
+      ],
+      "answer": "Selon le passage W1001_p3_c2 (page 3) : reduced the number of abstracts that reviewers had to read by 52 percent, which corresponds to a WSS@95 of 0.47.",
+      "supporting_quote": "reduced the number of abstracts that reviewers had to read by 52 percent, which corresponds to a WSS@95 of 0.47.",
+      "paper_id": "https://openalex.org/W1001",
+      "chunk_id": "W1001_p3_c2",
+      "page": 3,
+      "status": "verified",
+      "verification_reason": "Citation exacte, chunk et page cohérents.",
+      "authorized_for_writing": true,
+      "created_at": "2026-11-03T11:37:12+00:00"
+    },
+    {
+      "question": "Quelle charge de lecture le screening par LLM économise-t-il et combien coûte le vote majoritaire ?",
+      "focus_question": "Combien coûte le vote majoritaire ?",
+      "config": "agentique+memoire",
+      "strategy": "lexical/reformulee/k=3",
+      "retrieved_chunk_ids": [
+        "s2-7f3a_p3_c2",
+        "s2-7f3a_p3_c1",
+        "s2-7f3a_p2_c1"
+      ],
+      "answer": "Selon le passage s2-7f3a_p3_c2 (page 3) : Majority voting multiplied the cost by five, reaching 4.10 dollars per 1,000 abstracts, while few-shot chain of thought cost 0.95 dollars per 1,000 abstracts.",
+      "supporting_quote": "Majority voting multiplied the cost by five, reaching 4.10 dollars per 1,000 abstracts, while few-shot chain of thought cost 0.95 dollars per 1,000 abstracts.",
+      "paper_id": "s2-7f3a",
+      "chunk_id": "s2-7f3a_p3_c2",
+      "page": 3,
+      "status": "verified",
+      "verification_reason": "Citation exacte, chunk et page cohérents.",
+      "authorized_for_writing": true,
+      "created_at": "2026-11-03T11:37:12+00:00"
+    },
+    {
+      "question": "Quel rappel le screening par LLM atteint-il avec des prompts few-shot ?",
+      "focus_question": "Quel rappel le screening par LLM atteint-il avec des prompts few-shot ?",
+      "config": "agentique+memoire",
+      "strategy": "semantique/question/k=3",
+      "retrieved_chunk_ids": [
+        "s2-7f3a_p3_c1",
+        "W1001_p3_c1",
+        "s2-7f3a_p2_c1"
+      ],
+      "answer": "Selon le passage s2-7f3a_p3_c1 (page 3) : Sensitivity, the proportion of relevant studies kept by the language model during title and abstract screening, was 0.82 with input-output prompting, 0.97 with zero-shot chain of thought, and 1.00 with few-shot chain of thought and with majority voting.",
+      "supporting_quote": "Sensitivity, the proportion of relevant studies kept by the language model during title and abstract screening, was 0.82 with input-output prompting, 0.97 with zero-shot chain of thought, and 1.00 with few-shot chain of thought and with majority voting.",
+      "paper_id": "s2-7f3a",
+      "chunk_id": "s2-7f3a_p3_c1",
+      "page": 3,
+      "status": "verified",
+      "verification_reason": "Citation exacte, chunk et page cohérents.",
+      "authorized_for_writing": true,
+      "created_at": "2026-11-03T15:16:04+00:00"
+    }
+  ]
+}

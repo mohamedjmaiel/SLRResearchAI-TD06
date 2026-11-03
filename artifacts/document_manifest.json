@@ -1,0 +1,26 @@
+{
+ "schema_version": "1.0",
+ "origin": "DOCUMENT_PREPARATION",
+ "source_artifact": "screening_decisions.json",
+ "pedagogical_fixture": true,
+ "documents": [
+  {
+   "paper_id": "https://openalex.org/W1001",
+   "status": "downloaded",
+   "source_url": "https://doi.org/10.5555/slr.2024.001",
+   "pages_key": "W1001"
+  },
+  {
+   "paper_id": "https://openalex.org/W1002",
+   "status": "manual_required",
+   "source_url": "",
+   "pages_key": null
+  },
+  {
+   "paper_id": "s2-7f3a",
+   "status": "downloaded",
+   "source_url": "https://www.semanticscholar.org/paper/s2-7f3a",
+   "pages_key": "s2-7f3a"
+  }
+ ]
+}

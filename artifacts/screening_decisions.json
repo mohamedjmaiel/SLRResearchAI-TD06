@@ -1,0 +1,31 @@
+{
+ "schema_version": "1.0",
+ "origin": "TD04",
+ "source_artifact": "search_results.json",
+ "decisions": [
+  {
+   "paper_id": "https://openalex.org/W1001",
+   "final_decision": "include",
+   "decider": "accord",
+   "reason": "accord des règles et du LLM"
+  },
+  {
+   "paper_id": "https://openalex.org/W1002",
+   "final_decision": "include",
+   "decider": "humain",
+   "reason": "Supervision humaine de suggestions d'IA générative pendant la sélection."
+  },
+  {
+   "paper_id": "crossref:10.5555/SLR.2022.207",
+   "final_decision": "exclude",
+   "decider": "humain",
+   "reason": "Outils d'apprentissage actif : aucun LLM évalué."
+  },
+  {
+   "paper_id": "s2-7f3a",
+   "final_decision": "include",
+   "decider": "humain",
+   "reason": "Résumé absent : texte intégral consulté, stratégies de prompting et sensibilité mesurée."
+  }
+ ]
+}

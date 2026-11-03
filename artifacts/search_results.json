@@ -1,0 +1,58 @@
+{
+ "schema_version": "1.0",
+ "origin": "TD03",
+ "topic": "Utilisation des LLM pour assister le screening des SLR en génie logiciel",
+ "rq": "Comment les LLM améliorent-ils le rappel du screening des SLR ?",
+ "queries": {
+  "scholar": "\"large language models\" OR \"generative AI\" OR LLM screening OR \"study selection\" OR \"title and abstract screening\" recall OR sensitivity",
+  "ieee": "(\"All Metadata\":\"large language models\" OR \"All Metadata\":\"generative AI\" OR \"All Metadata\":LLM) AND (\"All Metadata\":screening OR \"All Metadata\":\"study selection\" OR \"All Metadata\":\"title and abstract screening\") AND (\"All Metadata\":recall OR \"All Metadata\":sensitivity)",
+  "acm": "Abstract:(\"large language models\" OR \"generative AI\" OR LLM) AND Abstract:(screening OR \"study selection\" OR \"title and abstract screening\") AND Abstract:(recall OR sensitivity)"
+ },
+ "papers": [
+  {
+   "id": "https://openalex.org/W1001",
+   "title": "Large language models for title and abstract screening in systematic reviews",
+   "doi": "10.5555/slr.2024.001",
+   "url": "https://doi.org/10.5555/SLR.2024.001",
+   "year": 2024,
+   "open_access": true,
+   "sources": [
+    "openalex",
+    "crossref"
+   ]
+  },
+  {
+   "id": "https://openalex.org/W1002",
+   "title": "Human-in-the-loop study selection with generative AI",
+   "doi": "10.5555/slr.2023.014",
+   "url": "https://doi.org/10.5555/slr.2023.014",
+   "year": 2023,
+   "open_access": false,
+   "sources": [
+    "openalex"
+   ]
+  },
+  {
+   "id": "crossref:10.5555/SLR.2022.207",
+   "title": "Evaluating the recall of automated screening tools",
+   "doi": "10.5555/slr.2022.207",
+   "url": "https://doi.org/10.5555/slr.2022.207",
+   "year": 2022,
+   "open_access": null,
+   "sources": [
+    "crossref"
+   ]
+  },
+  {
+   "id": "s2-7f3a",
+   "title": "Prompt engineering for systematic review automation",
+   "doi": null,
+   "url": "https://www.semanticscholar.org/paper/s2-7f3a",
+   "year": 2025,
+   "open_access": true,
+   "sources": [
+    "semantic_scholar"
+   ]
+  }
+ ]
+}

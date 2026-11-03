@@ -1,0 +1,42 @@
+{
+ "episodes": [
+  {
+   "question": "Qui prend la décision finale d'inclusion d'une étude ?",
+   "concepts": [
+    "decision_finale"
+   ],
+   "strategy": {
+    "retriever": "semantique",
+    "query_kind": "question",
+    "k": 3
+   },
+   "uses": 1
+  },
+  {
+   "question": "Combien coûte le vote majoritaire ?",
+   "concepts": [
+    "cout",
+    "vote_majoritaire"
+   ],
+   "strategy": {
+    "retriever": "lexical",
+    "query_kind": "reformulee",
+    "k": 3
+   },
+   "uses": 1
+  },
+  {
+   "question": "Quel rappel le screening par LLM atteint-il avec des prompts few-shot ?",
+   "concepts": [
+    "few_shot",
+    "rappel"
+   ],
+   "strategy": {
+    "retriever": "semantique",
+    "query_kind": "question",
+    "k": 3
+   },
+   "uses": 1
+  }
+ ]
+}

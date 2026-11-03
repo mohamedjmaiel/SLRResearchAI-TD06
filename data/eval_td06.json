@@ -1,0 +1,113 @@
+{
+ "description": "Jeu d'évaluation du TD06 : questions annotées par deux relecteurs (pages acceptables, nombre d'aspects). Même corpus que le TD05. L'ordre compte pour la mémoire épisodique : E7 et E8 reformulent E5 et E2.",
+ "topic": "Utilisation des LLM pour assister le screening des SLR en génie logiciel",
+ "questions": [
+  {
+   "id": "E1",
+   "question": "Quel rappel le screening par LLM atteint-il avec des prompts few-shot ?",
+   "kind": "facile",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "https://openalex.org/W1001",
+     3
+    ],
+    [
+     "s2-7f3a",
+     3
+    ]
+   ],
+   "aspects": 1
+  },
+  {
+   "id": "E2",
+   "question": "Combien coûte le vote majoritaire pour 1 000 résumés ?",
+   "kind": "vocabulaire",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "s2-7f3a",
+     3
+    ]
+   ],
+   "aspects": 1
+  },
+  {
+   "id": "E3",
+   "question": "Quelle charge de lecture le screening par LLM économise-t-il et combien coûte le vote majoritaire ?",
+   "kind": "multi_aspects",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "https://openalex.org/W1001",
+     3
+    ],
+    [
+     "s2-7f3a",
+     3
+    ]
+   ],
+   "aspects": 2
+  },
+  {
+   "id": "E4",
+   "question": "Quel accord inter-évaluateurs (kappa de Cohen) les relecteurs obtiennent-ils ?",
+   "kind": "hors_corpus",
+   "expected": "abstention",
+   "acceptable_pages": [],
+   "aspects": 1
+  },
+  {
+   "id": "E5",
+   "question": "Qui prend la décision finale d'inclusion d'une étude ?",
+   "kind": "vocabulaire",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "https://openalex.org/W1001",
+     4
+    ]
+   ],
+   "aspects": 1
+  },
+  {
+   "id": "E6",
+   "question": "Pourquoi la reproductibilité des résultats est-elle menacée ?",
+   "kind": "vocabulaire",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "s2-7f3a",
+     5
+    ]
+   ],
+   "aspects": 1
+  },
+  {
+   "id": "E7",
+   "question": "À qui revient la décision finale lors du screening assisté ?",
+   "kind": "paraphrase",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "https://openalex.org/W1001",
+     4
+    ]
+   ],
+   "aspects": 1
+  },
+  {
+   "id": "E8",
+   "question": "Quel surcoût entraîne le vote majoritaire ?",
+   "kind": "paraphrase",
+   "expected": "repondre",
+   "acceptable_pages": [
+    [
+     "s2-7f3a",
+     3
+    ]
+   ],
+   "aspects": 1
+  }
+ ]
+}
